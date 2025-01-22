@@ -49,17 +49,23 @@ flask db upgrade head
 
 - Seed the database:
 
-```bash python server/seed.py```
+```bash 
+python server/seed.py
+```
 
 - Running the Application
 
 1. Start the Flask API server:
 
-``` bash python server/app.py```
+```bash
+ python server/app.py
+```
 
 - (Optional) Start the React frontend:
 
-```bash npm start --prefix client```
+```bash 
+npm start --prefix client
+```
 
 
 # Testing
